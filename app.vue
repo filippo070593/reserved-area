@@ -1,4 +1,5 @@
 <template>
+  <LoadingIndicator />
   <v-app class="gradient-background">
     <NuxtLayout>
       <NuxtLoadingIndicator />
@@ -33,3 +34,6 @@
   }
 }
 </style>
+<script setup lang="ts">
+import LoadingIndicator from "~/components/LoadingIndicator/LoadingIndicator.vue";
+</script>
